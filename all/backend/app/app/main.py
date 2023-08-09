@@ -8,7 +8,6 @@ from app.db.session import Session
 
 import os
 
-# new branch test
 os.sys.path.append(r"E:\FastAPI_NO.38\all\backend\app")
 
 app = FastAPI(title=config.PROJECT_NAME, openapi_url="/api/v1/openapi.json")
